@@ -7,3 +7,5 @@ from keyboards import default, inline
 async def start(message: types.Message):
     await message.answer(text="Assalomu alaykum!  Xush kelibsiz😊", 
                     reply_markup=default.MenuBtn)
+
+# Hello world
